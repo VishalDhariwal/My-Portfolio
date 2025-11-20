@@ -7,28 +7,29 @@ import { motion } from "framer-motion";
 
 const projects = [
   {
-    title: "E-Commerce Platform",
-    description: "A full-featured online shopping platform with cart, payments, and admin dashboard.",
-    tags: ["React", "Node.js", "MongoDB", "Stripe"],
+    title: "Notes – Real-Time CRUD App",
+    description: "A powerful notes app featuring real-time synchronization, create/edit/delete functionality, and smooth user experience.",
+    "tags": ["React", "Vite", "Redux", "TailwindCSS", "Appwrite", "Notes App", "CRUD"],
     image: "https://images.unsplash.com/photo-1557821552-17105176677c?w=800&h=500&fit=crop",
-    github: "https://github.com",
-    demo: "https://example.com",
+    github: "https://github.com/VishalDhariwal/SyncNote-Repo-react",
+    // demo: "https://example.com",
   },
   {
-    title: "Task Management App",
-    description: "Collaborative task manager with real-time updates, team features, and analytics.",
-    tags: ["Next.js", "TypeScript", "Supabase", "Tailwind"],
-    image: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&h=500&fit=crop",
-    github: "https://github.com",
-    demo: "https://example.com",
-  },
-  {
-    title: "Weather Dashboard",
-    description: "Beautiful weather app with forecasts, maps, and location-based alerts.",
-    tags: ["React", "API Integration", "Chart.js", "CSS"],
+    title: "Fake News Detection",
+    description: "A modern fake news detection system built with React, TypeScript, and Vite. Features a clean ShadCN UI, API-based classification, confidence scoring, and interactive data visualizations.",
+    tags: ["React", "TypeScript", "Vite", "ShadCN", "Tailwind", "API Integration", "React Query"],
     image: "https://images.unsplash.com/photo-1592210454359-9043f067919b?w=800&h=500&fit=crop",
-    github: "https://github.com",
-    demo: "https://example.com",
+    github: "https://github.com/VishalDhariwal/Fake-news-prediction-app",
+    // demo: "https://example.com",
+  },
+
+  {
+    title: "Library Management App",
+    description: "A full-featured Library Management System built with Spring Boot, JPA, Thymeleaf, and MySQL. Supports book inventory management, member records, issue/return tracking, and administrative controls.",
+    tags: ["Spring Boot", "Java", "Thymeleaf", "MySQL", "H2", "JPA", "Library Management"],
+    image: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&h=500&fit=crop",
+    github: "https://github.com/VishalDhariwal/Library-Management",
+    // demo: "https://example.com",
   },
   {
     title: "Portfolio Website Builder",
